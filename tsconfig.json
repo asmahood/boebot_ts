@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"target": "es2017",
+		"lib": [
+			"es2017",
+			"dom"
+		],
+		"sourceMap": false,
+		"allowJs": true,
+		"removeComments": true,
+		"experimentalDecorators": true,
+		"outDir": "dist"
+	},
+	"include": [
+		"src/"
+	],
+	"exclude": [
+		"node_modules",
+		"bower_components",
+		"jspm_packages",
+		"tmp",
+		"temp",
+		"bin",
+		"docs",
+		"pkg",
+		"examples"
+	]
+}
